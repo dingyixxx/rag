@@ -1659,3 +1659,24 @@ class Person(object):
 2026-08-23 21:08:53,996 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_loader.py[line:117] - EduRAG - INFO - 处理文档: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\人工智能就业课课程大纲.pdf, 使用切分器: ChineseRecursive
 2026-08-23 21:08:53,998 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_loader.py[line:117] - EduRAG - INFO - 处理文档: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\黑马教育课程咨询知识库.pdf, 使用切分器: ChineseRecursive
 2026-08-23 21:08:53,999 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_loader.py[line:145] - EduRAG - INFO - 子块数量: 229
+2026-08-23 22:57:29,214 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:52] - EduRAG - INFO - 使用设置：cpu
+2026-08-23 22:57:33,679 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:118] - EduRAG - INFO - 已加载集合 edurag_0421
+2026-08-23 22:57:38,550 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:96] - EduRAG - INFO - 成功加载文件: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\人工智能就业课课程大纲.md
+2026-08-23 22:57:39,470 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:96] - EduRAG - INFO - 成功加载文件: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\人工智能就业课课程大纲.pdf
+2026-08-23 22:57:39,992 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:96] - EduRAG - INFO - 成功加载文件: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\黑马教育课程咨询知识库.pdf
+2026-08-23 22:57:39,992 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:114] - EduRAG - INFO - 加载的文档数量: 3
+2026-08-23 22:57:39,992 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:139] - EduRAG - INFO - 处理文档: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\人工智能就业课课程大纲.md, 使用切分器: Markdown
+2026-08-23 22:57:39,996 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:139] - EduRAG - INFO - 处理文档: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\人工智能就业课课程大纲.pdf, 使用切分器: ChineseRecursive
+2026-08-23 22:57:39,999 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:139] - EduRAG - INFO - 处理文档: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\黑马教育课程咨询知识库.pdf, 使用切分器: ChineseRecursive
+2026-08-23 22:57:39,999 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:172] - EduRAG - INFO - 子块数量: 229
+2026-08-23 22:59:52,448 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:52] - EduRAG - INFO - 使用设置：cpu
+2026-08-23 22:59:58,563 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:114] - EduRAG - INFO - 已创建集合 edurag_0421
+2026-08-23 23:00:02,089 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:96] - EduRAG - INFO - 成功加载文件: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\人工智能就业课课程大纲.md
+2026-08-23 23:00:02,678 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:96] - EduRAG - INFO - 成功加载文件: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\人工智能就业课课程大纲.pdf
+2026-08-23 23:00:03,164 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:96] - EduRAG - INFO - 成功加载文件: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\黑马教育课程咨询知识库.pdf
+2026-08-23 23:00:03,164 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:114] - EduRAG - INFO - 加载的文档数量: 3
+2026-08-23 23:00:03,164 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:139] - EduRAG - INFO - 处理文档: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\人工智能就业课课程大纲.md, 使用切分器: Markdown
+2026-08-23 23:00:03,169 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:139] - EduRAG - INFO - 处理文档: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\人工智能就业课课程大纲.pdf, 使用切分器: ChineseRecursive
+2026-08-23 23:00:03,172 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:139] - EduRAG - INFO - 处理文档: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\黑马教育课程咨询知识库.pdf, 使用切分器: ChineseRecursive
+2026-08-23 23:00:03,173 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:172] - EduRAG - INFO - 子块数量: 229
+2026-08-23 23:00:36,668 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:193] - EduRAG - INFO - 已插入或更新 229 个文档
