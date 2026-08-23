@@ -1,0 +1,8 @@
+/Itcast_qa_system/rag_qa/models/
+.env
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/workspace.xml
+/Itcast_qa_system/rag_qa/core/output/
