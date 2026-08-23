@@ -4,38 +4,273 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7949bbb9-d88d-4720-b0fc-b216304427db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/AsIf.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ai_debugger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ai_toolkit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_01_agent_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_01_history.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_01_indexes_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_01_structured_output.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_01_tool_invoke.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_agent_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_create_agent_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_indexes_splitter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02_message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03_agent_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03_indexes_vector_store.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03_memory_saver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_04_indexes_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_04_memory_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/shufe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/物流信息.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/衣服属性.txt" afterDir="false" />
+    <list default="true" id="7949bbb9-d88d-4720-b0fc-b216304427db" name="Changes" comment=".gitignore">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b3a26554-b1b3-4d3d-ad40-8ac1c6b07b25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b3a26554-b1b3-4d3d-ad40-8ac1c6b07b25/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b3a26554-b1b3-4d3d-ad40-8ac1c6b07b25/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b3a26554-b1b3-4d3d-ad40-8ac1c6b07b25/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b3a26554-b1b3-4d3d-ad40-8ac1c6b07b25/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/base/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/base/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/base/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/demo/fastapi_lesson/_03_pydantic_async.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/demo/fastapi_lesson/_03_pydantic_async_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/demo/fastapi_lesson/_04_ws_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/demo/fastapi_lesson/_04_ws_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/demo/logging_lesson/_01_log_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/demo/logging_lesson/_02_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/demo/logging_lesson/_03_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/demo/logging_lesson/_04_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/demo/logging_lesson/log/app.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/demo/redis_lesson/redis_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/docker/milvus_redis/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/docker/mysql/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/locust_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/logs/app.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/cache/redis_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/data/JP学科知识问答.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/db/mysql_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/retrieval/bm25_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/retrieval/bm25_search_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/sql_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/utils/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/new_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/notebooks/bert_models.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/notebooks/demo_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/notebooks/demo_models.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/notebooks/milvus_utils.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/notebooks/ollama_utils.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/notebooks/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/notebooks/test_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/notebooks/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/notebooks/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/notebooks/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/old_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/classify_data/chatgpt_generate_200.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/classify_data/chatgpt_generate_200_query.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/classify_data/handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/classify_data/model_generate_262.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/classify_data/model_generic_5000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/classify_data/qwen3-max_generate_200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/classify_data/training_data_1000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/classify_data/提示词模块.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/classify_data/数据生成与效果评估.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_outputs/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_outputs/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_outputs/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_outputs/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_outputs/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_query_classifier/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_query_classifier/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_query_classifier/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_query_classifier/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_query_classifier/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_results/checkpoint-96/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_results/checkpoint-96/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_results/checkpoint-96/optimizer.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_results/checkpoint-96/rng_state.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_results/checkpoint-96/scheduler.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_results/checkpoint-96/trainer_state.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/bert_results/checkpoint-96/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/chatgpt_train_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/document_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/document_processor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/new_rag_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/best_model/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/best_model/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/best_model/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/best_model/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/best_model/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/best_model/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-120/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-120/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-120/optimizer.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-120/rng_state.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-120/scheduler.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-120/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-120/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-120/trainer_state.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-120/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-120/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-180/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-180/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-180/optimizer.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-180/rng_state.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-180/scheduler.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-180/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-180/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-180/trainer_state.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-180/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-180/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-60/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-60/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-60/optimizer.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-60/rng_state.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-60/scheduler.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-60/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-60/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-60/trainer_state.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-60/training_args.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/output/checkpoint-60/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/prompts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/query_classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/rag_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/strategy_selector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/train_bert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/vector_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/data/ai_data/人工智能就业课课程大纲.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/data/ai_data/人工智能就业课课程大纲.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/data/ai_data/黑马教育课程咨询知识库.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/data/samples/LLM基础知识.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/data/samples/ocr_01.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/data/samples/ocr_02.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/data/samples/ocr_02_副本.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/data/samples/ocr_03.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/data/samples/ocr_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/demo_parse_args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/edu_document_loaders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/edu_document_loaders/demo_markdown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/edu_document_loaders/edu_docloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/edu_document_loaders/edu_imgloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/edu_document_loaders/edu_ocr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/edu_document_loaders/edu_pdfloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/edu_document_loaders/edu_pptloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/edu_document_loaders/review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/edu_text_spliter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/edu_text_spliter/edu_chinese_recursive_text_splitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/edu_text_spliter/edu_model_text_spliter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/edu_text_spliter/review.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/1_Pooling/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/colbert_linear.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/config_sentence_transformers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/configuration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/imgs/bm25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/imgs/long.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/imgs/miracl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/imgs/mkqa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/imgs/nqa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/imgs/others.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/long.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/modules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/pytorch_model.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/sentence_bert_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/sentencepiece.bpe.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/sparse_linear.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-m3/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-reranker-large/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-reranker-large/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-reranker-large/configuration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-reranker-large/model.safetensors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-reranker-large/onnx/model.onnx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-reranker-large/onnx/model.onnx_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-reranker-large/sentencepiece.bpe.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-reranker-large/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-reranker-large/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/bge-reranker-large/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/nlp_bert_document-segmentation_chinese-base/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/nlp_bert_document-segmentation_chinese-base/added_tokens.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/nlp_bert_document-segmentation_chinese-base/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/nlp_bert_document-segmentation_chinese-base/configuration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/nlp_bert_document-segmentation_chinese-base/pytorch_model.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/nlp_bert_document-segmentation_chinese-base/special_tokens_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/nlp_bert_document-segmentation_chinese-base/tokenizer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/nlp_bert_document-segmentation_chinese-base/tokenizer_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/nlp_bert_document-segmentation_chinese-base/vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/nlp_bert_document-segmentation_chinese-base/zh_exp_res.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/models/nlp_bert_document-segmentation_chinese-base/模型结构.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/rag_assesment/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/rag_assesment/ollama_ragas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/rag_assesment/rag_evaluate_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/rag_assesment/ragas_evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/rag_assesment/ragas_evaluation_results.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/rag_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/train.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/requirements-mac.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/requirements-windows.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/static/old_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/static/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Itcast_qa_system/token_response_times.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01/attention_mechanism_explanation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01/attention_mechanism_explanation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01/outputs/chroma.db/8228524e-197f-42ed-bdaa-651f452c4935/link_lists.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/express_demo/chroma/chroma.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/express_demo/chroma/d0d83ff6-27b1-451b-a25d-4299c5a6eea8/data_level0.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/express_demo/chroma/d0d83ff6-27b1-451b-a25d-4299c5a6eea8/header.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/express_demo/chroma/d0d83ff6-27b1-451b-a25d-4299c5a6eea8/length.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/express_demo/chroma/d0d83ff6-27b1-451b-a25d-4299c5a6eea8/link_lists.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/express_demo/data/物流信息.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/express_demo/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/express_demo/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/express_demo/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/express_demo/web_qa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/20260823_141901.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/20260823_142155.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/20260823_142358.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/20260823_142735.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/20260823_142845.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/20260823_143151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/20260823_154627.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/20260823_160134.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/20260823_164544.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/20260823_193840.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/20260823_201406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asif/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AsIf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AsIf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_agent_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/_01_agent_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_history.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/_01_history.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_indexes_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/_01_indexes_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_structured_output.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/_01_structured_output.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_tool_invoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/_01_tool_invoke.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_agent_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/_02_agent_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_create_agent_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/_02_create_agent_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_indexes_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/_02_indexes_splitter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/_02_message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03_agent_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/_03_agent_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03_indexes_vector_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/_03_indexes_vector_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03_memory_saver.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/_03_memory_saver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_indexes_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/_04_indexes_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04_memory_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/_04_memory_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attention_mechanism_explanation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/shufe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/data/shufe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/物流信息.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/data/物流信息.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/衣服属性.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/data/衣服属性.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/chroma.db/8228524e-197f-42ed-bdaa-651f452c4935/data_level0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/outputs/chroma.db/8228524e-197f-42ed-bdaa-651f452c4935/data_level0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/chroma.db/8228524e-197f-42ed-bdaa-651f452c4935/header.bin" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/outputs/chroma.db/8228524e-197f-42ed-bdaa-651f452c4935/header.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/chroma.db/8228524e-197f-42ed-bdaa-651f452c4935/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/outputs/chroma.db/8228524e-197f-42ed-bdaa-651f452c4935/length.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/chroma.db/8228524e-197f-42ed-bdaa-651f452c4935/link_lists.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/chroma.db/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/outputs/chroma.db/chroma.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/牛来电影介绍.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/牛来电影介绍.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,59 +293,80 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.01测试numpy_pandas_matplotlib.executor": "Run",
-    "Python.02.asyncio.executor": "Run",
-    "Python.03.asyncio02.executor": "Run",
-    "Python.04.asyncio03.executor": "Run",
-    "Python.04_缺失值的删除操作.executor": "Run",
-    "Python.06.asyncio06.executor": "Run",
-    "Python.06_中美日三个国家的GDP数据每年变化折线图.executor": "Run",
-    "Python._01_agent_search.executor": "Run",
-    "Python._01_finance_cls.executor": "Run",
-    "Python._01_history.executor": "Run",
-    "Python._01_indexes_loader.executor": "Run",
-    "Python._01_llm.executor": "Run",
-    "Python._01_structured_output.executor": "Run",
-    "Python._01_tool_invoke.executor": "Run",
-    "Python._02_agent_tools.executor": "Run",
-    "Python._02_create_agent_tools.executor": "Run",
-    "Python._02_finance_ie.executor": "Run",
-    "Python._02_indexes_splitter.executor": "Run",
-    "Python._02_message.executor": "Run",
-    "Python._03_agent_api.executor": "Run",
-    "Python._03_indexes_vector_store.executor": "Run",
-    "Python._03_memory_saver.executor": "Run",
-    "Python._04_indexes_search.executor": "Run",
-    "Python.model.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "aidebugger.tracer.lastRunConfigName": "_02_agent_tools",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/P72/PycharmProjects/AsIf",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.01测试numpy_pandas_matplotlib.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02.asyncio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03.asyncio02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04.asyncio03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_缺失值的删除操作.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06.asyncio06.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_中美日三个国家的GDP数据每年变化折线图.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_agent_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_finance_cls.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_history.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_indexes_loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_llm.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_structured_output.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_tool_invoke.executor&quot;: &quot;Run&quot;,
+    &quot;Python._02_agent_tools.executor&quot;: &quot;Run&quot;,
+    &quot;Python._02_create_agent_tools.executor&quot;: &quot;Run&quot;,
+    &quot;Python._02_finance_ie.executor&quot;: &quot;Run&quot;,
+    &quot;Python._02_indexes_splitter.executor&quot;: &quot;Run&quot;,
+    &quot;Python._02_message.executor&quot;: &quot;Run&quot;,
+    &quot;Python._03_agent_api.executor&quot;: &quot;Run&quot;,
+    &quot;Python._03_indexes_vector_store.executor&quot;: &quot;Run&quot;,
+    &quot;Python._03_memory_saver.executor&quot;: &quot;Run&quot;,
+    &quot;Python._04_indexes_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bm25_search_demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.db.executor&quot;: &quot;Run&quot;,
+    &quot;Python.document_loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mysql_client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.redis_client (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.redis_client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sql_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_demo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;aidebugger.tracer.lastRunConfigName&quot;: &quot;document_loader&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/P72/PycharmProjects/AsIf/screenshots&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\P72\PycharmProjects\AsIf\screenshots" />
       <recent name="C:\Users\P72\PycharmProjects\AsIf" />
       <recent name="C:\Users\P72\PycharmProjects\AsIf\chapter02" />
       <recent name="C:\Users\P72\PycharmProjects\AsIf\python串讲" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\P72\PycharmProjects\AsIf\screenshots" />
+      <recent name="C:\Users\P72\PycharmProjects\AsIf\chapter01\data" />
+      <recent name="C:\Users\P72\PycharmProjects\AsIf\chapter02\express_demo\data" />
+      <recent name="C:\Users\P72\PycharmProjects\AsIf\chapter01" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python._02_agent_tools">
-    <configuration name="_01_structured_output" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.document_loader">
+    <configuration name="document_loader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AsIf" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,12 +375,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_01_structured_output.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/document_loader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +389,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_01_tool_invoke" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mysql_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AsIf" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,12 +398,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/db" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_01_tool_invoke.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/db/mysql_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +412,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_02_agent_tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="redis_client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AsIf" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,12 +421,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/cache" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_02_agent_tools.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/cache/redis_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,7 +435,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_03_agent_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="redis_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AsIf" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,12 +444,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system/demo/redis_lesson" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_03_agent_api.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/demo/redis_lesson/redis_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,7 +458,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_04_indexes_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sql_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AsIf" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,12 +467,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system/mysql_qa" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_04_indexes_search.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/sql_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,11 +483,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python._02_agent_tools" />
-        <item itemvalue="Python._03_agent_api" />
-        <item itemvalue="Python._01_tool_invoke" />
-        <item itemvalue="Python._01_structured_output" />
-        <item itemvalue="Python._04_indexes_search" />
+        <item itemvalue="Python.document_loader" />
+        <item itemvalue="Python.sql_main" />
+        <item itemvalue="Python.mysql_client" />
+        <item itemvalue="Python.redis_client (1)" />
+        <item itemvalue="Python.redis_client" />
       </list>
     </recent_temporary>
   </component>
@@ -251,20 +507,75 @@
       <option name="presentableId" value="Default" />
       <updated>1787223416511</updated>
       <workItem from="1787223417564" duration="2785000" />
-      <workItem from="1787228790621" duration="30578000" />
+      <workItem from="1787228790621" duration="67012000" />
     </task>
+    <task id="LOCAL-00001" summary="bm25">
+      <option name="closed" value="true" />
+      <created>1787484392277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1787484392277</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add .gitignore">
+      <option name="closed" value="true" />
+      <created>1787493118643</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1787493118643</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改readme">
+      <option name="closed" value="true" />
+      <created>1787493800641</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1787493800641</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bm25" />
+    <MESSAGE value="add .gitignore" />
+    <MESSAGE value="修改readme" />
+    <MESSAGE value=".gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/_02_agent_tools.py</url>
-          <line>59</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/chapter01/_02_agent_tools.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -273,26 +584,35 @@
     <SUITE FILE_PATH="coverage/AsIf$_03_memory_saver.coverage" NAME="_03_memory_saver Coverage Results" MODIFIED="1787408531374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AsIf$04_.coverage" NAME="04_缺失值的删除操作 Coverage Results" MODIFIED="1787312023058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python串讲" />
     <SUITE FILE_PATH="coverage/AsIf$_01_finance_cls.coverage" NAME="_01_finance_cls Coverage Results" MODIFIED="1787399109171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
-    <SUITE FILE_PATH="coverage/AsIf$_01_history.coverage" NAME="_01_history Coverage Results" MODIFIED="1787408437869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AsIf$_01_history.coverage" NAME="_01_history Coverage Results" MODIFIED="1787455073029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter01" />
+    <SUITE FILE_PATH="coverage/AsIf$sql_main.coverage" NAME="sql_main Coverage Results" MODIFIED="1787482953907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/mysql_qa" />
     <SUITE FILE_PATH="coverage/AsIf$_01_structured_output.coverage" NAME="_01_structured_output Coverage Results" MODIFIED="1787411918206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AsIf$03_asyncio02.coverage" NAME="03.asyncio02 Coverage Results" MODIFIED="1787237588744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python串讲" />
     <SUITE FILE_PATH="coverage/AsIf$_01_tool_invoke.coverage" NAME="_01_tool_invoke Coverage Results" MODIFIED="1787412153391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AsIf$_04_indexes_search.coverage" NAME="_04_indexes_search Coverage Results" MODIFIED="1787410889927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AsIf$main.coverage" NAME="main Coverage Results" MODIFIED="1787461390217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02/express_demo" />
     <SUITE FILE_PATH="coverage/AsIf$06_GDP.coverage" NAME="06_中美日三个国家的GDP数据每年变化折线图 Coverage Results" MODIFIED="1787233758277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python串讲" />
     <SUITE FILE_PATH="coverage/AsIf$02_asyncio.coverage" NAME="02.asyncio Coverage Results" MODIFIED="1787236218608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python串讲" />
     <SUITE FILE_PATH="coverage/AsIf$06_asyncio06.coverage" NAME="06.asyncio06 Coverage Results" MODIFIED="1787277973031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python串讲" />
     <SUITE FILE_PATH="coverage/AsIf$_01_llm.coverage" NAME="_01_llm Coverage Results" MODIFIED="1787402370252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/AsIf$04_asyncio03.coverage" NAME="04.asyncio03 Coverage Results" MODIFIED="1787277278954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python串讲" />
-    <SUITE FILE_PATH="coverage/AsIf$_02_agent_tools.coverage" NAME="_02_agent_tools Coverage Results" MODIFIED="1787412754568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AsIf$_02_agent_tools.coverage" NAME="_02_agent_tools Coverage Results" MODIFIED="1787413449794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AsIf$_02_finance_ie.coverage" NAME="_02_finance_ie Coverage Results" MODIFIED="1787399476408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/AsIf$01numpy_pandas_matplotlib.coverage" NAME="01测试numpy_pandas_matplotlib Coverage Results" MODIFIED="1787233777736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python串讲" />
     <SUITE FILE_PATH="coverage/AsIf$_02_message.coverage" NAME="_02_message Coverage Results" MODIFIED="1787408597075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AsIf$_03_indexes_vector_store.coverage" NAME="_03_indexes_vector_store Coverage Results" MODIFIED="1787410801671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AsIf$_01_indexes_loader.coverage" NAME="_01_indexes_loader Coverage Results" MODIFIED="1787409239253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AsIf$_01_agent_search.coverage" NAME="_01_agent_search Coverage Results" MODIFIED="1787405220843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AsIf$_02_create_agent_tools.coverage" NAME="_02_create_agent_tools Coverage Results" MODIFIED="1787405637394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AsIf$model.coverage" NAME="model Coverage Results" MODIFIED="1787399709995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02/demo" />
+    <SUITE FILE_PATH="coverage/AsIf$db.coverage" NAME="db Coverage Results" MODIFIED="1787461050338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02/express_demo" />
+    <SUITE FILE_PATH="coverage/AsIf$bm25_search_demo.coverage" NAME="bm25_search_demo Coverage Results" MODIFIED="1787480749031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/retrieval" />
+    <SUITE FILE_PATH="coverage/AsIf$document_loader.coverage" NAME="document_loader Coverage Results" MODIFIED="1787490506723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core" />
+    <SUITE FILE_PATH="coverage/AsIf$_01_agent_search.coverage" NAME="_01_agent_search Coverage Results" MODIFIED="1787455055906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter01" />
+    <SUITE FILE_PATH="coverage/AsIf$test_demo.coverage" NAME="test_demo Coverage Results" MODIFIED="1787464355351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/notebooks" />
+    <SUITE FILE_PATH="coverage/AsIf$redis_client__1_.coverage" NAME="redis_client (1) Coverage Results" MODIFIED="1787481763118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/cache" />
+    <SUITE FILE_PATH="coverage/AsIf$mysql_client.coverage" NAME="mysql_client Coverage Results" MODIFIED="1787482482682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/db" />
+    <SUITE FILE_PATH="coverage/AsIf$_02_create_agent_tools.coverage" NAME="_02_create_agent_tools Coverage Results" MODIFIED="1787413259673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AsIf$model.coverage" NAME="model Coverage Results" MODIFIED="1787461094185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02/express_demo" />
     <SUITE FILE_PATH="coverage/AsIf$_02_indexes_splitter.coverage" NAME="_02_indexes_splitter Coverage Results" MODIFIED="1787408861562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AsIf$redis_client.coverage" NAME="redis_client Coverage Results" MODIFIED="1787480998937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/demo/redis_lesson" />
     <SUITE FILE_PATH="coverage/AsIf$_03_agent_api.coverage" NAME="_03_agent_api Coverage Results" MODIFIED="1787412669184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

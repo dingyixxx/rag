@@ -20,7 +20,8 @@ from langchain.agents import create_agent
 from langchain_community.tools import DuckDuckGoSearchRun
 from pathlib import Path
 from dotenv import load_dotenv
-load_dotenv(Path(__file__).resolve().parents[0] / ".env")
+load_dotenv(Path(__file__).resolve().parents[1] / ".env")
+
 
 ddg_search = DuckDuckGoSearchRun()
 # 实例化大模型
