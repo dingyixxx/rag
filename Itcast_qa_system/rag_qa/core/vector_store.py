@@ -327,7 +327,7 @@ if __name__ == "__main__":
     documents = process_documents(directory_path)  # 文档读取与切块
     vector_store.add_documents(documents)  # 子块编码并且写入Milvus
 
-    # query = "AI学科学费是多少？"
-    # results = vector_store.hybrid_search_with_rerank(query, source_filter='ai')
-    # print(f'results-->{results}')
-    # print(f'results-->{len(results)}')
+    query = "AI学科学费是多少？"
+    results = vector_store.hybrid_search_with_rerank(query, source_filter='ai')
+    print(f'results-->{results}')
+    print(f'results-->{len(results)}')

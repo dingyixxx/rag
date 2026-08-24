@@ -1680,3 +1680,370 @@ class Person(object):
 2026-08-23 23:00:03,172 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:139] - EduRAG - INFO - 处理文档: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/data/ai_data\黑马教育课程咨询知识库.pdf, 使用切分器: ChineseRecursive
 2026-08-23 23:00:03,173 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\document_processor.py[line:172] - EduRAG - INFO - 子块数量: 229
 2026-08-23 23:00:36,668 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:193] - EduRAG - INFO - 已插入或更新 229 个文档
+2026-08-24 10:59:10,062 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:35] - EduRAG - INFO - 使用设备: cpu
+2026-08-24 10:59:10,148 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:49] - EduRAG - INFO - 加载模型: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/core/bert_query_classifier
+2026-08-24 10:59:10,407 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:149] - EduRAG - INFO - 开始训练 BERT 模型...
+2026-08-24 11:01:11,610 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:62] - EduRAG - INFO - 模型保存至: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/core/bert_query_classifier
+2026-08-24 11:01:16,356 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:181] - EduRAG - INFO - 分类报告:
+2026-08-24 11:01:16,370 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:187] - EduRAG - INFO - 混淆矩阵:
+2026-08-24 11:01:16,373 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:188] - EduRAG - INFO - [[ 85   1]
+ [  0 105]]
+2026-08-24 11:13:02,389 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\strategy_selector.py[line:84] - EduRAG - INFO - 为查询 'AI大模型的课程大纲和JAVA的课程大纲，以及AI的课程学费？' 选择的检索策略：子查询检索
+2026-08-24 12:32:11,897 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:52] - EduRAG - INFO - 使用设置：cpu
+2026-08-24 12:32:16,748 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:118] - EduRAG - INFO - 已加载集合 edurag_0421
+2026-08-24 12:32:16,758 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\rag_main.py[line:111] - EduRAG - INFO - 进入交互式查询模式...
+2026-08-24 12:32:16,787 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:35] - EduRAG - INFO - 使用设备: cpu
+2026-08-24 12:32:16,867 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:49] - EduRAG - INFO - 加载模型: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/core/bert_query_classifier
+2026-08-24 12:32:31,128 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\rag_main.py[line:136] - EduRAG - INFO - 用户选择了学科过滤: java
+2026-08-24 12:32:31,128 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:137] - EduRAG - INFO - 开始处理查询: 'java', 学科过滤: java
+2026-08-24 12:32:31,291 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:141] - EduRAG - INFO - 查询分类结果：通用知识 (查询: 'java')
+2026-08-24 12:32:31,291 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:145] - EduRAG - INFO - 查询为通用知识，直接调用 LLM
+2026-08-24 12:32:33,103 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:155] - EduRAG - INFO - 通用知识查询处理完成 (耗时: 1.97s, 查询: 'java')
+2026-08-24 12:32:50,245 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\rag_main.py[line:136] - EduRAG - INFO - 用户选择了学科过滤: java
+2026-08-24 12:32:50,245 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:137] - EduRAG - INFO - 开始处理查询: '课程体系是什么', 学科过滤: java
+2026-08-24 12:32:50,282 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:141] - EduRAG - INFO - 查询分类结果：专业咨询 (查询: '课程体系是什么')
+2026-08-24 12:32:50,282 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:161] - EduRAG - INFO - 查询为专业咨询，执行 RAG 流程
+2026-08-24 12:32:52,250 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\strategy_selector.py[line:84] - EduRAG - INFO - 为查询 '课程体系是什么' 选择的检索策略：直接检索
+2026-08-24 12:32:52,250 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:123] - EduRAG - INFO - 使用直接检索策略 (查询: '课程体系是什么')
+2026-08-24 12:32:52,711 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:128] - EduRAG - INFO - 策略 '直接检索' 检索到 0 个候选文档 (可能已是父文档)
+2026-08-24 12:32:52,711 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:130] - EduRAG - INFO - 最终选取 0 个文档作为上下文
+2026-08-24 12:32:52,711 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:177] - EduRAG - INFO - 未检索到相关文档，上下文为空
+2026-08-24 12:32:53,835 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:193] - EduRAG - INFO - 查询处理完成 (耗时: 3.59s, 查询: '课程体系是什么')
+2026-08-24 12:33:26,039 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\rag_main.py[line:136] - EduRAG - INFO - 用户选择了学科过滤: ai
+2026-08-24 12:33:26,039 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:137] - EduRAG - INFO - 开始处理查询: '课程体系', 学科过滤: ai
+2026-08-24 12:33:26,074 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:141] - EduRAG - INFO - 查询分类结果：专业咨询 (查询: '课程体系')
+2026-08-24 12:33:26,075 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:161] - EduRAG - INFO - 查询为专业咨询，执行 RAG 流程
+2026-08-24 12:33:26,789 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\strategy_selector.py[line:84] - EduRAG - INFO - 为查询 '课程体系' 选择的检索策略：直接检索
+2026-08-24 12:33:26,789 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:123] - EduRAG - INFO - 使用直接检索策略 (查询: '课程体系')
+2026-08-24 12:33:27,160 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:128] - EduRAG - INFO - 策略 '直接检索' 检索到 1 个候选文档 (可能已是父文档)
+2026-08-24 12:33:27,161 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:130] - EduRAG - INFO - 最终选取 1 个文档作为上下文
+2026-08-24 12:33:27,161 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:173] - EduRAG - INFO - 构建上下文完成，包含 1 个文档块
+2026-08-24 12:33:35,604 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:193] - EduRAG - INFO - 查询处理完成 (耗时: 9.57s, 查询: '课程体系')
+2026-08-24 12:34:39,143 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\rag_main.py[line:138] - EduRAG - WARNING - 无效的学科类别 'python'，将不过滤
+2026-08-24 12:34:39,143 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:137] - EduRAG - INFO - 开始处理查询: '基础概念', 学科过滤: None
+2026-08-24 12:34:39,177 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:141] - EduRAG - INFO - 查询分类结果：通用知识 (查询: '基础概念')
+2026-08-24 12:34:39,177 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:145] - EduRAG - INFO - 查询为通用知识，直接调用 LLM
+2026-08-24 12:34:40,184 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:155] - EduRAG - INFO - 通用知识查询处理完成 (耗时: 1.04s, 查询: '基础概念')
+2026-08-24 12:34:54,686 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\rag_main.py[line:136] - EduRAG - INFO - 用户选择了学科过滤: ai
+2026-08-24 12:34:54,686 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:137] - EduRAG - INFO - 开始处理查询: '如何安装和使用本地大模型', 学科过滤: ai
+2026-08-24 12:34:54,730 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:141] - EduRAG - INFO - 查询分类结果：通用知识 (查询: '如何安装和使用本地大模型')
+2026-08-24 12:34:54,730 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:145] - EduRAG - INFO - 查询为通用知识，直接调用 LLM
+2026-08-24 12:35:20,809 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:155] - EduRAG - INFO - 通用知识查询处理完成 (耗时: 26.12s, 查询: '如何安装和使用本地大模型')
+2026-08-24 12:35:31,357 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\rag_main.py[line:136] - EduRAG - INFO - 用户选择了学科过滤: ai
+2026-08-24 12:35:31,357 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:137] - EduRAG - INFO - 开始处理查询: '基础概念', 学科过滤: ai
+2026-08-24 12:35:31,394 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:141] - EduRAG - INFO - 查询分类结果：通用知识 (查询: '基础概念')
+2026-08-24 12:35:31,395 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:145] - EduRAG - INFO - 查询为通用知识，直接调用 LLM
+2026-08-24 12:35:32,402 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:155] - EduRAG - INFO - 通用知识查询处理完成 (耗时: 1.04s, 查询: '基础概念')
+2026-08-24 12:35:48,022 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\rag_main.py[line:136] - EduRAG - INFO - 用户选择了学科过滤: ai
+2026-08-24 12:35:48,022 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:137] - EduRAG - INFO - 开始处理查询: '培训特色', 学科过滤: ai
+2026-08-24 12:35:48,057 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:141] - EduRAG - INFO - 查询分类结果：专业咨询 (查询: '培训特色')
+2026-08-24 12:35:48,057 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:161] - EduRAG - INFO - 查询为专业咨询，执行 RAG 流程
+2026-08-24 12:35:48,822 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\strategy_selector.py[line:84] - EduRAG - INFO - 为查询 '培训特色' 选择的检索策略：直接检索
+2026-08-24 12:35:48,823 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:123] - EduRAG - INFO - 使用直接检索策略 (查询: '培训特色')
+2026-08-24 12:35:49,180 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:128] - EduRAG - INFO - 策略 '直接检索' 检索到 1 个候选文档 (可能已是父文档)
+2026-08-24 12:35:49,180 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:130] - EduRAG - INFO - 最终选取 1 个文档作为上下文
+2026-08-24 12:35:49,180 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:173] - EduRAG - INFO - 构建上下文完成，包含 1 个文档块
+2026-08-24 12:35:57,278 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:193] - EduRAG - INFO - 查询处理完成 (耗时: 9.26s, 查询: '培训特色')
+2026-08-24 12:37:55,126 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:52] - EduRAG - INFO - 使用设置：cpu
+2026-08-24 12:37:59,465 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:118] - EduRAG - INFO - 已加载集合 edurag_0421
+2026-08-24 12:37:59,472 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\rag_main.py[line:111] - EduRAG - INFO - 进入交互式查询模式...
+2026-08-24 12:37:59,507 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:35] - EduRAG - INFO - 使用设备: cpu
+2026-08-24 12:37:59,572 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:49] - EduRAG - INFO - 加载模型: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/core/bert_query_classifier
+2026-08-24 12:38:13,537 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\rag_main.py[line:136] - EduRAG - INFO - 用户选择了学科过滤: ai
+2026-08-24 12:38:13,537 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:137] - EduRAG - INFO - 开始处理查询: '课程大纲', 学科过滤: ai
+2026-08-24 12:38:13,620 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:141] - EduRAG - INFO - 查询分类结果：专业咨询 (查询: '课程大纲')
+2026-08-24 12:38:13,620 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:161] - EduRAG - INFO - 查询为专业咨询，执行 RAG 流程
+2026-08-24 12:38:15,068 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\strategy_selector.py[line:84] - EduRAG - INFO - 为查询 '课程大纲' 选择的检索策略：直接检索
+2026-08-24 12:38:15,068 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:123] - EduRAG - INFO - 使用直接检索策略 (查询: '课程大纲')
+2026-08-24 12:38:18,850 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:128] - EduRAG - INFO - 策略 '直接检索' 检索到 4 个候选文档 (可能已是父文档)
+2026-08-24 12:38:18,851 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:130] - EduRAG - INFO - 最终选取 4 个文档作为上下文
+2026-08-24 12:38:18,851 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:173] - EduRAG - INFO - 构建上下文完成，包含 4 个文档块
+2026-08-24 12:38:31,539 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:193] - EduRAG - INFO - 查询处理完成 (耗时: 18.00s, 查询: '课程大纲')
+2026-08-24 12:39:22,052 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:137] - EduRAG - INFO - 开始处理查询: 'AI大模型的课程大纲和JAVA的课程大纲，以及AI的课程学费', 学科过滤: None
+2026-08-24 12:39:22,113 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:141] - EduRAG - INFO - 查询分类结果：专业咨询 (查询: 'AI大模型的课程大纲和JAVA的课程大纲，以及AI的课程学费')
+2026-08-24 12:39:22,114 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:161] - EduRAG - INFO - 查询为专业咨询，执行 RAG 流程
+2026-08-24 12:39:22,684 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\strategy_selector.py[line:84] - EduRAG - INFO - 为查询 'AI大模型的课程大纲和JAVA的课程大纲，以及AI的课程学费' 选择的检索策略：子查询检索
+2026-08-24 12:39:22,684 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:51] - EduRAG - INFO - 使用子查询策略进行检索 (查询: 'AI大模型的课程大纲和JAVA的课程大纲，以及AI的课程学费')
+2026-08-24 12:39:24,238 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:58] - EduRAG - INFO - 生成的子查询: ['AI大模型的课程大纲', 'JAVA的课程大纲', 'AI的课程学费']
+2026-08-24 12:39:30,496 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:73] - EduRAG - INFO - 子查询 'AI大模型的课程大纲' 检索到 7 个文档
+2026-08-24 12:39:35,723 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:73] - EduRAG - INFO - 子查询 'JAVA的课程大纲' 检索到 6 个文档
+2026-08-24 12:39:42,185 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:73] - EduRAG - INFO - 子查询 'AI的课程学费' 检索到 7 个文档
+2026-08-24 12:39:42,185 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:80] - EduRAG - INFO - 所有子查询共检索到 20 个文档, 去重后剩 11 个
+2026-08-24 12:39:42,185 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:128] - EduRAG - INFO - 策略 '子查询检索' 检索到 11 个候选文档 (可能已是父文档)
+2026-08-24 12:39:42,185 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:130] - EduRAG - INFO - 最终选取 8 个文档作为上下文
+2026-08-24 12:39:42,185 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:173] - EduRAG - INFO - 构建上下文完成，包含 8 个文档块
+2026-08-24 12:39:55,919 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\rag_system.py[line:193] - EduRAG - INFO - 查询处理完成 (耗时: 33.87s, 查询: 'AI大模型的课程大纲和JAVA的课程大纲，以及AI的课程学费')
+2026-08-24 15:58:14,803 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\db\mysql_client.py[line:24] - EduRAG - INFO - MySQL 连接成功
+2026-08-24 15:58:14,853 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:55] - EduRAG - INFO - BM25 模型初始化完成
+2026-08-24 15:58:14,928 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:52] - EduRAG - INFO - 使用设置：cpu
+2026-08-24 15:58:19,390 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:118] - EduRAG - INFO - 已加载集合 edurag_0421
+2026-08-24 15:58:19,430 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:35] - EduRAG - INFO - 使用设备: cpu
+2026-08-24 15:58:19,500 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:49] - EduRAG - INFO - 加载模型: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/core/bert_query_classifier
+2026-08-24 15:58:19,545 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:57] - EduRAG - INFO - 对话历史表初始化成功
+2026-08-24 15:58:58,292 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\db\mysql_client.py[line:115] - EduRAG - INFO - MySQL 连接已关闭
+2026-08-24 15:59:31,857 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\db\mysql_client.py[line:24] - EduRAG - INFO - MySQL 连接成功
+2026-08-24 15:59:31,871 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:55] - EduRAG - INFO - BM25 模型初始化完成
+2026-08-24 15:59:31,970 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:52] - EduRAG - INFO - 使用设置：cpu
+2026-08-24 15:59:36,072 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:118] - EduRAG - INFO - 已加载集合 edurag_0421
+2026-08-24 15:59:36,112 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:35] - EduRAG - INFO - 使用设备: cpu
+2026-08-24 15:59:36,178 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:49] - EduRAG - INFO - 加载模型: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/core/bert_query_classifier
+2026-08-24 15:59:36,188 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:57] - EduRAG - INFO - 对话历史表初始化成功
+2026-08-24 15:59:36,691 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\db\mysql_client.py[line:24] - EduRAG - INFO - MySQL 连接成功
+2026-08-24 15:59:36,705 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:55] - EduRAG - INFO - BM25 模型初始化完成
+2026-08-24 15:59:36,709 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:52] - EduRAG - INFO - 使用设置：cpu
+2026-08-24 15:59:40,124 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\vector_store.py[line:118] - EduRAG - INFO - 已加载集合 edurag_0421
+2026-08-24 15:59:40,160 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:35] - EduRAG - INFO - 使用设备: cpu
+2026-08-24 15:59:40,235 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\query_classifier.py[line:49] - EduRAG - INFO - 加载模型: /Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/core/bert_query_classifier
+2026-08-24 15:59:40,244 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:57] - EduRAG - INFO - 对话历史表初始化成功
+2026-08-24 16:00:32,541 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:00:33,531 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.358] 结果: win10如何安装python虚拟环境以及爬虫环境
+2026-08-24 16:00:33,531 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.358
+2026-08-24 16:00:33,846 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:161] - EduRAG - INFO - 处理查询: '如何安装python' (会话ID: 02d27e72-b5b0-4c7d-9227-fd7d45661db7)
+2026-08-24 16:00:33,848 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:00:33,849 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.358] 结果: win10如何安装python虚拟环境以及爬虫环境
+2026-08-24 16:00:33,849 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.358
+2026-08-24 16:00:33,849 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:178] - EduRAG - INFO - 无可靠MySQL答案，回退到RAG
+2026-08-24 16:00:33,849 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:205] - EduRAG - INFO - 开始处理查询: '如何安装python', 学科过滤: 
+2026-08-24 16:00:34,035 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:229] - EduRAG - INFO - 查询分类结果: 通用知识 (查询: '如何安装python')
+2026-08-24 16:00:34,036 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:234] - EduRAG - INFO - 查询为通用知识，直接调用 LLM
+2026-08-24 16:00:34,036 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:262] - EduRAG - INFO - 检索时间 (耗时: 0.19s, 查询: '如何安装python')
+2026-08-24 16:00:45,177 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:273] - EduRAG - INFO - LLM查询处理完成 (耗时: 11.14s, 查询: '如何安装python')
+2026-08-24 16:00:45,200 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:127] - EduRAG - INFO - 会话 02d27e72-b5b0-4c7d-9227-fd7d45661db7 历史更新成功
+2026-08-24 16:00:45,201 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:193] - EduRAG - INFO - 查询处理耗时 11.36秒
+2026-08-24 16:00:52,702 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:00:52,703 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.831] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:00:52,703 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.831
+2026-08-24 16:00:53,011 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:161] - EduRAG - INFO - 处理查询: '黑马的ai课程大纲' (会话ID: 02d27e72-b5b0-4c7d-9227-fd7d45661db7)
+2026-08-24 16:00:53,014 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:00:53,015 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.831] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:00:53,015 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.831
+2026-08-24 16:00:53,016 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:178] - EduRAG - INFO - 无可靠MySQL答案，回退到RAG
+2026-08-24 16:00:53,016 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:205] - EduRAG - INFO - 开始处理查询: '黑马的ai课程大纲', 学科过滤: 
+2026-08-24 16:00:53,016 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:225] - EduRAG - INFO - 使用对话历史: Q: 如何安装python
+A: 安装 Python 的步骤如下：
+
+### 1. **访问 Python 官方网站**
+前往 [Python 官方下载页面](https://www.python.o...
+2026-08-24 16:00:53,065 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:229] - EduRAG - INFO - 查询分类结果: 专业咨询 (查询: '黑马的ai课程大纲')
+2026-08-24 16:00:53,065 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:237] - EduRAG - INFO - 查询为专业咨询，执行 RAG 流程
+2026-08-24 16:00:53,757 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\strategy_selector.py[line:84] - EduRAG - INFO - 为查询 '黑马的ai课程大纲' 选择的检索策略：直接检索
+2026-08-24 16:00:53,757 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:126] - EduRAG - INFO - 使用直接检索策略 (查询: '黑马的ai课程大纲')
+2026-08-24 16:01:02,540 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:131] - EduRAG - INFO - 策略 '直接检索' 检索到 8 个候选文档 (可能已是父文档)
+2026-08-24 16:01:02,541 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:133] - EduRAG - INFO - 最终选取 8 个文档作为上下文
+2026-08-24 16:01:02,541 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:244] - EduRAG - INFO - 构建上下文完成，包含 8 个文档块
+2026-08-24 16:01:02,541 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:256] - EduRAG - WARNING - 提示长度 4788 超过 4096，进行截断
+2026-08-24 16:01:02,541 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:259] - EduRAG - INFO - 截断后提示长度: 4096
+2026-08-24 16:01:02,541 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:262] - EduRAG - INFO - 检索时间 (耗时: 9.53s, 查询: '黑马的ai课程大纲')
+2026-08-24 16:01:03,835 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:273] - EduRAG - INFO - LLM查询处理完成 (耗时: 1.29s, 查询: '黑马的ai课程大纲')
+2026-08-24 16:01:03,840 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:127] - EduRAG - INFO - 会话 02d27e72-b5b0-4c7d-9227-fd7d45661db7 历史更新成功
+2026-08-24 16:01:03,840 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:193] - EduRAG - INFO - 查询处理耗时 10.83秒
+2026-08-24 16:01:13,076 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:01:13,077 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.620] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:01:13,077 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.620
+2026-08-24 16:01:13,394 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:161] - EduRAG - INFO - 处理查询: '黑马ai课程大纲' (会话ID: 02d27e72-b5b0-4c7d-9227-fd7d45661db7)
+2026-08-24 16:01:13,401 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:01:13,406 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.620] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:01:13,407 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.620
+2026-08-24 16:01:13,408 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:178] - EduRAG - INFO - 无可靠MySQL答案，回退到RAG
+2026-08-24 16:01:13,408 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:205] - EduRAG - INFO - 开始处理查询: '黑马ai课程大纲', 学科过滤: 
+2026-08-24 16:01:13,409 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:225] - EduRAG - INFO - 使用对话历史: Q: 如何安装python
+A: 安装 Python 的步骤如下：
+
+### 1. **访问 Python 官方网站**
+前往 [Python 官方下载页面](https://www.python.o...
+2026-08-24 16:01:13,509 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:229] - EduRAG - INFO - 查询分类结果: 专业咨询 (查询: '黑马ai课程大纲')
+2026-08-24 16:01:13,510 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:237] - EduRAG - INFO - 查询为专业咨询，执行 RAG 流程
+2026-08-24 16:01:14,281 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\strategy_selector.py[line:84] - EduRAG - INFO - 为查询 '黑马ai课程大纲' 选择的检索策略：直接检索
+2026-08-24 16:01:14,281 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:126] - EduRAG - INFO - 使用直接检索策略 (查询: '黑马ai课程大纲')
+2026-08-24 16:01:22,595 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:131] - EduRAG - INFO - 策略 '直接检索' 检索到 8 个候选文档 (可能已是父文档)
+2026-08-24 16:01:22,596 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:133] - EduRAG - INFO - 最终选取 8 个文档作为上下文
+2026-08-24 16:01:22,596 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:244] - EduRAG - INFO - 构建上下文完成，包含 8 个文档块
+2026-08-24 16:01:22,597 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:256] - EduRAG - WARNING - 提示长度 4834 超过 4096，进行截断
+2026-08-24 16:01:22,598 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:259] - EduRAG - INFO - 截断后提示长度: 4096
+2026-08-24 16:01:22,598 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:262] - EduRAG - INFO - 检索时间 (耗时: 9.19s, 查询: '黑马ai课程大纲')
+2026-08-24 16:01:24,082 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:273] - EduRAG - INFO - LLM查询处理完成 (耗时: 1.48s, 查询: '黑马ai课程大纲')
+2026-08-24 16:01:24,089 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:127] - EduRAG - INFO - 会话 02d27e72-b5b0-4c7d-9227-fd7d45661db7 历史更新成功
+2026-08-24 16:01:24,089 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:193] - EduRAG - INFO - 查询处理耗时 10.70秒
+2026-08-24 16:01:27,285 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:01:27,287 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.860] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:01:27,292 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:97] - EduRAG - INFO - 搜索成功，Softmax 相似度: 0.860
+2026-08-24 16:01:47,719 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:01:47,721 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.620] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:01:47,721 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.620
+2026-08-24 16:01:48,029 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:161] - EduRAG - INFO - 处理查询: '黑马AI课程大纲' (会话ID: 02d27e72-b5b0-4c7d-9227-fd7d45661db7)
+2026-08-24 16:01:48,031 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:01:48,032 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.620] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:01:48,032 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.620
+2026-08-24 16:01:48,032 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:178] - EduRAG - INFO - 无可靠MySQL答案，回退到RAG
+2026-08-24 16:01:48,032 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:205] - EduRAG - INFO - 开始处理查询: '黑马AI课程大纲', 学科过滤: 
+2026-08-24 16:01:48,032 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:225] - EduRAG - INFO - 使用对话历史: Q: 如何安装python
+A: 安装 Python 的步骤如下：
+
+### 1. **访问 Python 官方网站**
+前往 [Python 官方下载页面](https://www.python.o...
+2026-08-24 16:01:48,104 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:229] - EduRAG - INFO - 查询分类结果: 专业咨询 (查询: '黑马AI课程大纲')
+2026-08-24 16:01:48,104 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:237] - EduRAG - INFO - 查询为专业咨询，执行 RAG 流程
+2026-08-24 16:01:48,764 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\strategy_selector.py[line:84] - EduRAG - INFO - 为查询 '黑马AI课程大纲' 选择的检索策略：直接检索
+2026-08-24 16:01:48,764 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:126] - EduRAG - INFO - 使用直接检索策略 (查询: '黑马AI课程大纲')
+2026-08-24 16:01:55,963 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:131] - EduRAG - INFO - 策略 '直接检索' 检索到 8 个候选文档 (可能已是父文档)
+2026-08-24 16:01:55,963 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:133] - EduRAG - INFO - 最终选取 8 个文档作为上下文
+2026-08-24 16:01:55,964 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:244] - EduRAG - INFO - 构建上下文完成，包含 8 个文档块
+2026-08-24 16:01:55,964 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:256] - EduRAG - WARNING - 提示长度 4792 超过 4096，进行截断
+2026-08-24 16:01:55,964 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:259] - EduRAG - INFO - 截断后提示长度: 4096
+2026-08-24 16:01:55,964 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:262] - EduRAG - INFO - 检索时间 (耗时: 7.93s, 查询: '黑马AI课程大纲')
+2026-08-24 16:01:57,059 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:273] - EduRAG - INFO - LLM查询处理完成 (耗时: 1.09s, 查询: '黑马AI课程大纲')
+2026-08-24 16:01:57,064 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:127] - EduRAG - INFO - 会话 02d27e72-b5b0-4c7d-9227-fd7d45661db7 历史更新成功
+2026-08-24 16:01:57,064 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:193] - EduRAG - INFO - 查询处理耗时 9.04秒
+2026-08-24 16:02:07,191 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:02:07,192 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.620] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:02:07,193 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.620
+2026-08-24 16:02:07,501 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:161] - EduRAG - INFO - 处理查询: '黑马AI课程大纲' (会话ID: 02d27e72-b5b0-4c7d-9227-fd7d45661db7)
+2026-08-24 16:02:07,503 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:02:07,504 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.620] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:02:07,504 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.620
+2026-08-24 16:02:07,504 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:178] - EduRAG - INFO - 无可靠MySQL答案，回退到RAG
+2026-08-24 16:02:07,505 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:205] - EduRAG - INFO - 开始处理查询: '黑马AI课程大纲', 学科过滤: 
+2026-08-24 16:02:07,505 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:225] - EduRAG - INFO - 使用对话历史: Q: 如何安装python
+A: 安装 Python 的步骤如下：
+
+### 1. **访问 Python 官方网站**
+前往 [Python 官方下载页面](https://www.python.o...
+2026-08-24 16:02:07,565 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:229] - EduRAG - INFO - 查询分类结果: 专业咨询 (查询: '黑马AI课程大纲')
+2026-08-24 16:02:07,566 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:237] - EduRAG - INFO - 查询为专业咨询，执行 RAG 流程
+2026-08-24 16:02:08,477 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\strategy_selector.py[line:84] - EduRAG - INFO - 为查询 '黑马AI课程大纲' 选择的检索策略：直接检索
+2026-08-24 16:02:08,477 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:126] - EduRAG - INFO - 使用直接检索策略 (查询: '黑马AI课程大纲')
+2026-08-24 16:02:15,641 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:131] - EduRAG - INFO - 策略 '直接检索' 检索到 8 个候选文档 (可能已是父文档)
+2026-08-24 16:02:15,641 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:133] - EduRAG - INFO - 最终选取 8 个文档作为上下文
+2026-08-24 16:02:15,641 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:244] - EduRAG - INFO - 构建上下文完成，包含 8 个文档块
+2026-08-24 16:02:15,641 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:256] - EduRAG - WARNING - 提示长度 4851 超过 4096，进行截断
+2026-08-24 16:02:15,642 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:259] - EduRAG - INFO - 截断后提示长度: 4096
+2026-08-24 16:02:15,642 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:262] - EduRAG - INFO - 检索时间 (耗时: 8.14s, 查询: '黑马AI课程大纲')
+2026-08-24 16:02:16,815 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:273] - EduRAG - INFO - LLM查询处理完成 (耗时: 1.17s, 查询: '黑马AI课程大纲')
+2026-08-24 16:02:16,821 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:127] - EduRAG - INFO - 会话 02d27e72-b5b0-4c7d-9227-fd7d45661db7 历史更新成功
+2026-08-24 16:02:16,821 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:193] - EduRAG - INFO - 查询处理耗时 9.32秒
+2026-08-24 16:02:21,014 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:02:21,016 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.729] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:02:21,016 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.729
+2026-08-24 16:02:21,325 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:161] - EduRAG - INFO - 处理查询: 'AI课程的学费是多少' (会话ID: 02d27e72-b5b0-4c7d-9227-fd7d45661db7)
+2026-08-24 16:02:21,327 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:02:21,328 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.729] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:02:21,328 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.729
+2026-08-24 16:02:21,328 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:178] - EduRAG - INFO - 无可靠MySQL答案，回退到RAG
+2026-08-24 16:02:21,328 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:205] - EduRAG - INFO - 开始处理查询: 'AI课程的学费是多少', 学科过滤: 
+2026-08-24 16:02:21,329 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:225] - EduRAG - INFO - 使用对话历史: Q: 如何安装python
+A: 安装 Python 的步骤如下：
+
+### 1. **访问 Python 官方网站**
+前往 [Python 官方下载页面](https://www.python.o...
+2026-08-24 16:02:21,379 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:229] - EduRAG - INFO - 查询分类结果: 专业咨询 (查询: 'AI课程的学费是多少')
+2026-08-24 16:02:21,379 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:237] - EduRAG - INFO - 查询为专业咨询，执行 RAG 流程
+2026-08-24 16:02:22,036 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\strategy_selector.py[line:84] - EduRAG - INFO - 为查询 'AI课程的学费是多少' 选择的检索策略：直接检索
+2026-08-24 16:02:22,036 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:126] - EduRAG - INFO - 使用直接检索策略 (查询: 'AI课程的学费是多少')
+2026-08-24 16:02:28,499 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:131] - EduRAG - INFO - 策略 '直接检索' 检索到 7 个候选文档 (可能已是父文档)
+2026-08-24 16:02:28,500 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:133] - EduRAG - INFO - 最终选取 7 个文档作为上下文
+2026-08-24 16:02:28,500 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:244] - EduRAG - INFO - 构建上下文完成，包含 7 个文档块
+2026-08-24 16:02:28,500 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:256] - EduRAG - WARNING - 提示长度 4510 超过 4096，进行截断
+2026-08-24 16:02:28,500 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:259] - EduRAG - INFO - 截断后提示长度: 4096
+2026-08-24 16:02:28,500 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:262] - EduRAG - INFO - 检索时间 (耗时: 7.17s, 查询: 'AI课程的学费是多少')
+2026-08-24 16:02:29,691 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:273] - EduRAG - INFO - LLM查询处理完成 (耗时: 1.19s, 查询: 'AI课程的学费是多少')
+2026-08-24 16:02:29,698 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:127] - EduRAG - INFO - 会话 02d27e72-b5b0-4c7d-9227-fd7d45661db7 历史更新成功
+2026-08-24 16:02:29,699 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:193] - EduRAG - INFO - 查询处理耗时 8.37秒
+2026-08-24 16:02:31,942 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:02:31,943 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.432] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:02:31,943 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.432
+2026-08-24 16:02:32,255 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:161] - EduRAG - INFO - 处理查询: 'JAVA课程的学费是多少' (会话ID: 02d27e72-b5b0-4c7d-9227-fd7d45661db7)
+2026-08-24 16:02:32,257 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:02:32,259 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.432] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:02:32,259 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.432
+2026-08-24 16:02:32,259 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:178] - EduRAG - INFO - 无可靠MySQL答案，回退到RAG
+2026-08-24 16:02:32,259 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:205] - EduRAG - INFO - 开始处理查询: 'JAVA课程的学费是多少', 学科过滤: 
+2026-08-24 16:02:32,259 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:225] - EduRAG - INFO - 使用对话历史: Q: 黑马的ai课程大纲
+A: 信息不足，无法回答，请联系人工客服，电话：12345678。
+Q: 黑马ai课程大纲
+A: 信息不足，无法回答，请联系人工客服，电话：12345678。
+Q: 黑马AI...
+2026-08-24 16:02:32,306 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:229] - EduRAG - INFO - 查询分类结果: 专业咨询 (查询: 'JAVA课程的学费是多少')
+2026-08-24 16:02:32,306 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:237] - EduRAG - INFO - 查询为专业咨询，执行 RAG 流程
+2026-08-24 16:02:33,033 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\strategy_selector.py[line:84] - EduRAG - INFO - 为查询 'JAVA课程的学费是多少' 选择的检索策略：直接检索
+2026-08-24 16:02:33,034 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:126] - EduRAG - INFO - 使用直接检索策略 (查询: 'JAVA课程的学费是多少')
+2026-08-24 16:02:38,493 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:131] - EduRAG - INFO - 策略 '直接检索' 检索到 5 个候选文档 (可能已是父文档)
+2026-08-24 16:02:38,494 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:133] - EduRAG - INFO - 最终选取 5 个文档作为上下文
+2026-08-24 16:02:38,494 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:244] - EduRAG - INFO - 构建上下文完成，包含 5 个文档块
+2026-08-24 16:02:38,494 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:262] - EduRAG - INFO - 检索时间 (耗时: 6.24s, 查询: 'JAVA课程的学费是多少')
+2026-08-24 16:02:40,058 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:273] - EduRAG - INFO - LLM查询处理完成 (耗时: 1.56s, 查询: 'JAVA课程的学费是多少')
+2026-08-24 16:02:40,064 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:127] - EduRAG - INFO - 会话 02d27e72-b5b0-4c7d-9227-fd7d45661db7 历史更新成功
+2026-08-24 16:02:40,064 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:193] - EduRAG - INFO - 查询处理耗时 7.81秒
+2026-08-24 16:02:53,298 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:02:53,299 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.619] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:02:53,299 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.619
+2026-08-24 16:02:53,610 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:161] - EduRAG - INFO - 处理查询: 'AI课程 学费' (会话ID: 02d27e72-b5b0-4c7d-9227-fd7d45661db7)
+2026-08-24 16:02:53,612 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:02:53,613 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.619] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:02:53,613 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:101] - EduRAG - INFO - 未找到可靠答案，最高 Softmax 相似度: 0.619
+2026-08-24 16:02:53,613 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:178] - EduRAG - INFO - 无可靠MySQL答案，回退到RAG
+2026-08-24 16:02:53,613 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:205] - EduRAG - INFO - 开始处理查询: 'AI课程 学费', 学科过滤: 
+2026-08-24 16:02:53,613 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:225] - EduRAG - INFO - 使用对话历史: Q: 黑马ai课程大纲
+A: 信息不足，无法回答，请联系人工客服，电话：12345678。
+Q: 黑马AI课程大纲
+A: 根据提供的文档，**AI大模型开发课程**的学习周期为 **4-6个月**（全...
+2026-08-24 16:02:53,661 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:229] - EduRAG - INFO - 查询分类结果: 专业咨询 (查询: 'AI课程 学费')
+2026-08-24 16:02:53,661 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:237] - EduRAG - INFO - 查询为专业咨询，执行 RAG 流程
+2026-08-24 16:02:54,502 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\strategy_selector.py[line:84] - EduRAG - INFO - 为查询 'AI课程 学费' 选择的检索策略：直接检索
+2026-08-24 16:02:54,502 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:126] - EduRAG - INFO - 使用直接检索策略 (查询: 'AI课程 学费')
+2026-08-24 16:03:00,858 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:131] - EduRAG - INFO - 策略 '直接检索' 检索到 7 个候选文档 (可能已是父文档)
+2026-08-24 16:03:00,858 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:133] - EduRAG - INFO - 最终选取 7 个文档作为上下文
+2026-08-24 16:03:00,858 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:244] - EduRAG - INFO - 构建上下文完成，包含 7 个文档块
+2026-08-24 16:03:00,858 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:262] - EduRAG - INFO - 检索时间 (耗时: 7.25s, 查询: 'AI课程 学费')
+2026-08-24 16:03:02,104 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\rag_qa\core\new_rag_system.py[line:273] - EduRAG - INFO - LLM查询处理完成 (耗时: 1.25s, 查询: 'AI课程 学费')
+2026-08-24 16:03:02,110 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:127] - EduRAG - INFO - 会话 02d27e72-b5b0-4c7d-9227-fd7d45661db7 历史更新成功
+2026-08-24 16:03:02,110 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\new_main.py[line:193] - EduRAG - INFO - 查询处理耗时 8.50秒
+2026-08-24 16:03:08,870 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:03:08,872 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.991] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:03:08,874 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:97] - EduRAG - INFO - 搜索成功，Softmax 相似度: 0.991
+2026-08-24 16:03:34,204 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:03:34,206 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.991] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:03:34,209 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:97] - EduRAG - INFO - 搜索成功，Softmax 相似度: 0.991
+2026-08-24 16:03:37,794 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:03:37,796 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [0.999] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:03:37,799 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:97] - EduRAG - INFO - 搜索成功，Softmax 相似度: 0.999
+2026-08-24 16:04:03,076 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\utils\preprocess.py[line:10] - EduRAG - INFO - 开始预处理文本
+2026-08-24 16:04:03,078 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:86] - EduRAG - INFO - 搜索最高分 [1.000] 结果: 解锁后面的课程
+如何解锁后面的课程
+解锁后面的学科
+2026-08-24 16:04:03,080 - C:\Users\P72\PycharmProjects\AsIf\Itcast_qa_system\mysql_qa\retrieval\bm25_search.py[line:97] - EduRAG - INFO - 搜索成功，Softmax 相似度: 1.000

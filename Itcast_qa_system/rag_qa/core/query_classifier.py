@@ -211,7 +211,7 @@ class QueryClassifier:
 
 if __name__ == "__main__":
     # 初始化分类器
-    classifier = QueryClassifier(model_path="/Users/chan/projects/models/bert-base-chinese")  # 可以修改自己的bert模型路径
+    classifier = QueryClassifier(model_path="/Users/P72/PycharmProjects/AsIf/Itcast_qa_system/rag_qa/core/bert_query_classifier")  # 可以修改自己的bert模型路径
 
     # 训练模型
     classifier.train_model(data_file='../classify_data/chatgpt_generate_200.jsonl')  # 可以修改自己的训练数据路径

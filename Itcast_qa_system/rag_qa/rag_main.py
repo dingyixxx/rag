@@ -1,4 +1,16 @@
 import os
+import sys
+
+# 自举：把脚本所在目录和项目根目录加入模块搜索路径
+# （通过 AI Profiler 包装器运行时，这两个目录不在 sys.path 里）
+_script_dir = os.path.dirname(os.path.abspath(__file__))      # ...\Itcast_qa_system\rag_qa
+_project_dir = os.path.dirname(_script_dir)                   # ...\Itcast_qa_system
+for _p in (_script_dir, _project_dir):
+    if _p not in sys.path:
+        sys.path.insert(0, _p)
+# 日志文件、data 目录都按相对路径找，必须切到脚本目录
+os.chdir(_script_dir)
+
 from base import Config, logger
 from core.document_loader import process_documents  # 导入处理文档的函数
 from core.vector_store import VectorStore

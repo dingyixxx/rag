@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7949bbb9-d88d-4720-b0fc-b216304427db" name="Changes" comment="bm25 and rag">
-      <change afterPath="$PROJECT_DIR$/screenshots/20260823_222318.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/20260823_224239.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/20260823_230223.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/20260823_230319.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/20260823_231149.jpg" afterDir="false" />
+    <list default="true" id="7949bbb9-d88d-4720-b0fc-b216304427db" name="Changes" comment="评估指标">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Itcast_qa_system/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/Itcast_qa_system/logs/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,65 +34,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.01测试numpy_pandas_matplotlib.executor": "Run",
-    "Python.02.asyncio.executor": "Run",
-    "Python.03.asyncio02.executor": "Run",
-    "Python.04.asyncio03.executor": "Run",
-    "Python.04_缺失值的删除操作.executor": "Run",
-    "Python.06.asyncio06.executor": "Run",
-    "Python.06_中美日三个国家的GDP数据每年变化折线图.executor": "Run",
-    "Python._01_agent_search.executor": "Run",
-    "Python._01_finance_cls.executor": "Run",
-    "Python._01_history.executor": "Run",
-    "Python._01_indexes_loader.executor": "Run",
-    "Python._01_llm.executor": "Run",
-    "Python._01_structured_output.executor": "Run",
-    "Python._01_tool_invoke.executor": "Run",
-    "Python._02_agent_tools.executor": "Run",
-    "Python._02_create_agent_tools.executor": "Run",
-    "Python._02_finance_ie.executor": "Run",
-    "Python._02_indexes_splitter.executor": "Run",
-    "Python._02_message.executor": "Run",
-    "Python._03_agent_api.executor": "Run",
-    "Python._03_indexes_vector_store.executor": "Run",
-    "Python._03_memory_saver.executor": "Run",
-    "Python._04_indexes_search.executor": "Run",
-    "Python.bm25_search_demo.executor": "Run",
-    "Python.db.executor": "Run",
-    "Python.document_loader.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.model.executor": "Run",
-    "Python.mysql_client.executor": "Run",
-    "Python.redis_client (1).executor": "Run",
-    "Python.redis_client.executor": "Run",
-    "Python.sql_main.executor": "Run",
-    "Python.test_demo.executor": "Run",
-    "Python.vector_store.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "aidebugger.tracer.lastRunConfigName": "vector_store",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/P72/PycharmProjects/AsIf/screenshots",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.01测试numpy_pandas_matplotlib.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02.asyncio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03.asyncio02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04.asyncio03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_缺失值的删除操作.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06.asyncio06.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_中美日三个国家的GDP数据每年变化折线图.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_agent_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_finance_cls.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_history.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_indexes_loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_llm.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_structured_output.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_tool_invoke.executor&quot;: &quot;Run&quot;,
+    &quot;Python._02_agent_tools.executor&quot;: &quot;Run&quot;,
+    &quot;Python._02_create_agent_tools.executor&quot;: &quot;Run&quot;,
+    &quot;Python._02_finance_ie.executor&quot;: &quot;Run&quot;,
+    &quot;Python._02_indexes_splitter.executor&quot;: &quot;Run&quot;,
+    &quot;Python._02_message.executor&quot;: &quot;Run&quot;,
+    &quot;Python._03_agent_api.executor&quot;: &quot;Run&quot;,
+    &quot;Python._03_indexes_vector_store.executor&quot;: &quot;Run&quot;,
+    &quot;Python._03_memory_saver.executor&quot;: &quot;Run&quot;,
+    &quot;Python._04_indexes_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bm25_search_demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.db.executor&quot;: &quot;Run&quot;,
+    &quot;Python.document_loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mysql_client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.new_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.query_classifier.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rag_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ragas_evaluate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.redis_client (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.redis_client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sql_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.strategy_selector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vector_store.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;aidebugger.tracer.lastRunConfigName&quot;: &quot;ragas_evaluate&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/P72/PycharmProjects/AsIf/screenshots&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\P72\PycharmProjects\AsIf\screenshots" />
@@ -113,8 +113,8 @@
       <recent name="C:\Users\P72\PycharmProjects\AsIf\chapter01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.vector_store">
-    <configuration name="document_loader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ragas_evaluate">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AsIf" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,12 +123,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/document_loader.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mysql_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="new_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AsIf" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,12 +146,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/db" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/db/mysql_client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/new_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="redis_client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ollama_ragas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AsIf" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,12 +169,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/cache" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system/rag_qa/rag_assesment" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/cache/redis_client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/rag_qa/rag_assesment/ollama_ragas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,7 +183,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sql_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="rag_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AsIf" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,12 +192,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system/mysql_qa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system/rag_qa" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/sql_main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/rag_qa/rag_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="vector_store" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ragas_evaluate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AsIf" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,12 +215,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Itcast_qa_system/rag_qa/rag_assesment" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core/vector_store.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Itcast_qa_system/rag_qa/rag_assesment/ragas_evaluate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.vector_store" />
-        <item itemvalue="Python.document_loader" />
-        <item itemvalue="Python.sql_main" />
-        <item itemvalue="Python.mysql_client" />
-        <item itemvalue="Python.redis_client (1)" />
+        <item itemvalue="Python.ragas_evaluate" />
+        <item itemvalue="Python.ollama_ragas" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.new_main" />
+        <item itemvalue="Python.rag_main" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +256,11 @@
       <updated>1787223416511</updated>
       <workItem from="1787223417564" duration="2785000" />
       <workItem from="1787228790621" duration="67012000" />
+      <workItem from="1787558913754" duration="410000" />
+      <workItem from="1787559348000" duration="945000" />
+      <workItem from="1787561576306" duration="49000" />
+      <workItem from="1787561639479" duration="748000" />
+      <workItem from="1787562415511" duration="269000" />
     </task>
     <task id="LOCAL-00001" summary="bm25">
       <option name="closed" value="true" />
@@ -289,7 +294,23 @@
       <option name="project" value="LOCAL" />
       <updated>1787494522325</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="混合检索">
+      <option name="closed" value="true" />
+      <created>1787498379880</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1787498379880</updated>
+    </task>
+    <task id="LOCAL-00006" summary="评估指标">
+      <option name="closed" value="true" />
+      <created>1787562246409</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1787562246409</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +345,9 @@
     <MESSAGE value="修改readme" />
     <MESSAGE value=".gitignore" />
     <MESSAGE value="bm25 and rag" />
-    <option name="LAST_COMMIT_MESSAGE" value="bm25 and rag" />
+    <MESSAGE value="混合检索" />
+    <MESSAGE value="评估指标" />
+    <option name="LAST_COMMIT_MESSAGE" value="评估指标" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -339,6 +362,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AsIf$_03_memory_saver.coverage" NAME="_03_memory_saver Coverage Results" MODIFIED="1787408531374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AsIf$app.coverage" NAME="app Coverage Results" MODIFIED="1787558351861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system" />
     <SUITE FILE_PATH="coverage/AsIf$04_.coverage" NAME="04_缺失值的删除操作 Coverage Results" MODIFIED="1787312023058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python串讲" />
     <SUITE FILE_PATH="coverage/AsIf$_01_finance_cls.coverage" NAME="_01_finance_cls Coverage Results" MODIFIED="1787399109171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/AsIf$_01_history.coverage" NAME="_01_history Coverage Results" MODIFIED="1787455073029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter01" />
@@ -352,15 +376,19 @@
     <SUITE FILE_PATH="coverage/AsIf$02_asyncio.coverage" NAME="02.asyncio Coverage Results" MODIFIED="1787236218608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python串讲" />
     <SUITE FILE_PATH="coverage/AsIf$06_asyncio06.coverage" NAME="06.asyncio06 Coverage Results" MODIFIED="1787277973031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python串讲" />
     <SUITE FILE_PATH="coverage/AsIf$_01_llm.coverage" NAME="_01_llm Coverage Results" MODIFIED="1787402370252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/AsIf$strategy_selector.coverage" NAME="strategy_selector Coverage Results" MODIFIED="1787541174761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core" />
     <SUITE FILE_PATH="coverage/AsIf$04_asyncio03.coverage" NAME="04.asyncio03 Coverage Results" MODIFIED="1787277278954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python串讲" />
     <SUITE FILE_PATH="coverage/AsIf$_02_agent_tools.coverage" NAME="_02_agent_tools Coverage Results" MODIFIED="1787413449794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AsIf$_02_finance_ie.coverage" NAME="_02_finance_ie Coverage Results" MODIFIED="1787399476408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/AsIf$rag_main.coverage" NAME="rag_main Coverage Results" MODIFIED="1787546257753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/rag_qa" />
     <SUITE FILE_PATH="coverage/AsIf$01numpy_pandas_matplotlib.coverage" NAME="01测试numpy_pandas_matplotlib Coverage Results" MODIFIED="1787233777736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python串讲" />
     <SUITE FILE_PATH="coverage/AsIf$_02_message.coverage" NAME="_02_message Coverage Results" MODIFIED="1787408597075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AsIf$_03_indexes_vector_store.coverage" NAME="_03_indexes_vector_store Coverage Results" MODIFIED="1787410801671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AsIf$query_classifier.coverage" NAME="query_classifier Coverage Results" MODIFIED="1787540337635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core" />
     <SUITE FILE_PATH="coverage/AsIf$_01_indexes_loader.coverage" NAME="_01_indexes_loader Coverage Results" MODIFIED="1787409239253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AsIf$db.coverage" NAME="db Coverage Results" MODIFIED="1787461050338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02/express_demo" />
     <SUITE FILE_PATH="coverage/AsIf$vector_store.coverage" NAME="vector_store Coverage Results" MODIFIED="1787497175961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core" />
+    <SUITE FILE_PATH="coverage/AsIf$ragas_evaluate.coverage" NAME="ragas_evaluate Coverage Results" MODIFIED="1787561680566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/rag_qa/rag_assesment" />
     <SUITE FILE_PATH="coverage/AsIf$bm25_search_demo.coverage" NAME="bm25_search_demo Coverage Results" MODIFIED="1787480749031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/retrieval" />
     <SUITE FILE_PATH="coverage/AsIf$document_loader.coverage" NAME="document_loader Coverage Results" MODIFIED="1787490506723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/rag_qa/core" />
     <SUITE FILE_PATH="coverage/AsIf$_01_agent_search.coverage" NAME="_01_agent_search Coverage Results" MODIFIED="1787455055906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter01" />
@@ -368,6 +396,7 @@
     <SUITE FILE_PATH="coverage/AsIf$redis_client__1_.coverage" NAME="redis_client (1) Coverage Results" MODIFIED="1787481763118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/cache" />
     <SUITE FILE_PATH="coverage/AsIf$mysql_client.coverage" NAME="mysql_client Coverage Results" MODIFIED="1787482482682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/mysql_qa/db" />
     <SUITE FILE_PATH="coverage/AsIf$_02_create_agent_tools.coverage" NAME="_02_create_agent_tools Coverage Results" MODIFIED="1787413259673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AsIf$new_main.coverage" NAME="new_main Coverage Results" MODIFIED="1787558276874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system" />
     <SUITE FILE_PATH="coverage/AsIf$model.coverage" NAME="model Coverage Results" MODIFIED="1787461094185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02/express_demo" />
     <SUITE FILE_PATH="coverage/AsIf$_02_indexes_splitter.coverage" NAME="_02_indexes_splitter Coverage Results" MODIFIED="1787408861562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AsIf$redis_client.coverage" NAME="redis_client Coverage Results" MODIFIED="1787480998937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Itcast_qa_system/demo/redis_lesson" />
